@@ -13,6 +13,7 @@
 		E32C71ED25B3718F00B00095 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E32C71EB25B3718F00B00095 /* Main.storyboard */; };
 		E32C71EF25B3719000B00095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E32C71EE25B3719000B00095 /* Assets.xcassets */; };
 		E32C71F225B3719000B00095 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E32C71F025B3719000B00095 /* LaunchScreen.storyboard */; };
+		E32C71FB25B378CC00B00095 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32C71FA25B378CC00B00095 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E32C71EE25B3719000B00095 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E32C71F125B3719000B00095 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E32C71F325B3719000B00095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E32C71FA25B378CC00B00095 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E32C71EE25B3719000B00095 /* Assets.xcassets */,
 				E32C71F025B3719000B00095 /* LaunchScreen.storyboard */,
 				E32C71F325B3719000B00095 /* Info.plist */,
+				E32C71FA25B378CC00B00095 /* MyCollectionViewCell.swift */,
 			);
 			path = UICollectionViewDemo;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				E32C71EA25B3718F00B00095 /* ViewController.swift in Sources */,
 				E32C71E625B3718F00B00095 /* AppDelegate.swift in Sources */,
+				E32C71FB25B378CC00B00095 /* MyCollectionViewCell.swift in Sources */,
 				E32C71E825B3718F00B00095 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
